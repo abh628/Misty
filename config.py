@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/abh628/SaregamaMusic",
+    "https://github.com/abh628/Misty",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -84,13 +84,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/c61b0474536561616b0a9-88166664659d4173c9.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/xuzkp7.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/8507e4058424d71d05884-c08ce07c38846ff394.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/mn7vn7.mp4"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/5f6635e528adf8f682ee6-b25a6861c6a4fdfa1a.jpg"
-STATS_IMG_URL = "https://graph.org/file/d74f9a8ca05636fa9f816-476bf17c89b152e2a7.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/exzkvb.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/z2ezzk.mp4"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
